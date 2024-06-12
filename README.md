@@ -1,6 +1,6 @@
 **IMPLEMENTATION:**
 
-**Step 1: Load the Pre-Trained YOLOv5 Model **
+**Step 1: Load the Pre-Trained YOLOv5 Model**
 * Utilize the PyTorch library to load a pre-trained YOLOv5 model that has been trained on a large dataset to recognize various objects. 
 
 **Step 2: Define Preprocessing Functions**
@@ -12,10 +12,10 @@ These preprocessing steps ensure that the input images are in the correct format
 * Feed the preprocessed images into the loaded YOLOv5 model to perform inference and detect objects within the images. 
 * The model outputs bounding box coordinates, class predictions (e.g., pure or impure dal grains), and confidence scores for each detected object. 
 
-**Step 4: Apply Non-Maximum Suppression (NMS) **
+**Step 4: Apply Non-Maximum Suppression (NMS)**
 * Refine the detection results using Non-Maximum Suppression (NMS) to eliminate redundant bounding boxes that cover the same object. 
 
-**Step 5: Calculate the Count of Pure and Impure Dal Grains **
+**Step 5: Calculate the Count of Pure and Impure Dal Grains**
 * This quantitative data provides insights into the proportion of pure vs. impure grains in a sample, which can be valuable for quality control in food processing and packaging industries.
 
 ![Select](https://github.com/meghu03/Grain-Adulteration-Detection-using-Deep-Neural-Network/assets/116013635/2ef5adf7-e547-4ec8-bede-c24176a6a31e)
